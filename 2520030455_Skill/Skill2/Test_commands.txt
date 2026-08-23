@@ -1,0 +1,37 @@
+Test Commands
+
+Test 1:
+hello
+
+Expected:
+You entered: hello
+
+Test 2:
+ls
+
+Expected:
+You entered: ls
+
+Test 3:
+hello world
+
+Expected:
+You entered: hello world
+
+Test 4:
+exit
+
+Expected:
+Exiting shell...
+
+Keyboard Test:
+
+Input:
+helloX
+
+Press Backspace to remove X.
+
+Expected:
+hello
+
+Press Enter to complete the input.

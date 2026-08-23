@@ -1,0 +1,17 @@
+System Call Tracing
+
+Commands used:
+
+strace ./fork_demo
+strace ./exec_demo
+strace ./process_tree
+
+Important system calls observed:
+
+fork()  - Creates a new child process.
+execve() - Executes a new program.
+wait4() - Parent waits for the child process.
+write() - Displays output on the terminal.
+exit_group() - Terminates the process.
+
+System calls allow user programs to request services from the Linux kernel.

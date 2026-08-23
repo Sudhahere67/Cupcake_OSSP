@@ -1,0 +1,31 @@
+Git Repository Setup
+
+1. Install Git:
+
+sudo apt install git
+
+2. Check Git installation:
+
+git --version
+
+3. Configure Git:
+
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+4. Create a project directory:
+
+mkdir Skill_Exercise_1
+cd Skill_Exercise_1
+
+5. Initialize Git:
+
+git init
+
+6. Add project files:
+
+git add .
+
+7. Create the first commit:
+
+git commit -m "Initial project setup"

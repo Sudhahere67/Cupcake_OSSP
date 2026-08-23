@@ -1,0 +1,16 @@
+Linux VM Setup
+
+1. Install VirtualBox or another virtualization software.
+2. Download a Linux ISO such as Ubuntu.
+3. Create a new virtual machine.
+4. Allocate RAM and storage.
+5. Install Ubuntu in the virtual machine.
+6. Open the Linux Terminal.
+7. Update the system using:
+
+sudo apt update
+sudo apt upgrade
+
+8. Verify the Linux installation using:
+
+uname -a

@@ -1,0 +1,21 @@
+GCC Configuration
+
+1. Install GCC:
+
+sudo apt install gcc
+
+2. Verify GCC installation:
+
+gcc --version
+
+3. Create a C source file:
+
+nano test.c
+
+4. Compile the program:
+
+gcc test.c -o test
+
+5. Run the program:
+
+./test
