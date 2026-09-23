@@ -1,0 +1,14 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c11
+
+TARGET = process_monitor
+SOURCE = process_monitor.c
+
+all:
+	$(CC) $(CFLAGS) $(SOURCE) -o $(TARGET)
+
+run:
+	./$(TARGET)
+
+clean:
+	rm -f $(TARGET) process_log.txt
